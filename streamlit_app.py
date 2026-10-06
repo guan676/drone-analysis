@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+plt.rcParams['axes.unicode_minus'] = False
+
 # ===== 页面配置 =====
 st.set_page_config(
     page_title="无人机飞行分析",
